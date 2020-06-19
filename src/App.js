@@ -17,7 +17,7 @@ function App() {
     const response = await api.post('repositories', {
       url: "https://github.com/jorgedsdias",
       title: "Jorge",
-      techs: ["Node", "Express", "TypeScript"]
+      techs: ["React", "Node.js"]
     });
 
     const repository = response.data;
